@@ -1,0 +1,6 @@
+build/*
+.DS_Store
+/node/node_modules/*
+.env
+tmp/
+Move.lock

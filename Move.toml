@@ -1,0 +1,9 @@
+[package]
+name = "farming"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+published-at = "0x07e7f66abc7cd487be3bd682bdee8c87163caa6fc31908e75f245a144bef67a7"
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "b40cdedf4df6f0deaa4a46c1bf99c57029160202", override = true }
+
+[addresses]
+farming = "0x0"
